@@ -159,6 +159,7 @@ int main()
     cout<<sol2.minimumTotal(triangle)<<endl;
     */
     vector<vector<char>> matrix{{'1','1','1','0'},{'1','1','0','1'},{'1','1','1','1'}};
+    int a=0;
     Solution4 sol4;
     cout<<sol4.maximalRectangle(matrix)<<endl;
     cout<<"Output over"<<endl;
